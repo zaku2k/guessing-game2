@@ -1,12 +1,12 @@
 print("Press enter")
 
 def d1():
-    input1 = ["too small", "too big", "you win"]
+    input1 = ["Enter", "too small", "too big", "you win"]
     while True:
         result = input()
         if result in input1:
             break
-        print("Enter 'too small', 'too big', 'you win'")
+        print("Input options: 'too small', 'too big', 'you win' Now type: 'Enter'")
     return result
 
 def d2():
@@ -31,3 +31,4 @@ def d2():
 
 d1()
 d2()
+
